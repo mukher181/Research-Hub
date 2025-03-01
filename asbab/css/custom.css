@@ -1,0 +1,174 @@
+/*--------------------------------------------------------------
+  Template Name: Asbab eCommerce HTML5 Template.
+  Description: Asbab is a unique website template designed in HTML with a simple & beautiful look.
+---------------------------------------------------------------*/
+
+/* Custom styles */
+.header__auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+  min-width: 180px;
+}
+
+.header__auth a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header__auth a.btn-outline {
+  border: 2px solid #c43b68;
+  color: #c43b68;
+  background: transparent;
+}
+
+.header__auth a.btn-outline:hover {
+  background: #c43b68;
+  color: #fff;
+}
+
+.header__auth a.btn {
+  background: #c43b68;
+  color: #fff;
+  border: 2px solid #c43b68;
+}
+
+.header__auth a.btn:hover {
+  background: #aa2d54;
+  border-color: #aa2d54;
+}
+
+@media (max-width: 767px) {
+  .header__auth {
+    display: none;
+  }
+}
+
+/* Make container take up almost full width */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 99.5%;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 99.5%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mainmenu__wrap .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menumenu__container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo {
+  padding-left: 2px;
+}
+
+.header__right {
+  padding-right: 2px;
+  padding-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 99.5%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+/* Add box layout with minimal margin */
+.box__layout {
+  margin: 0 2px;
+}
+
+/* Add professional styling for research paper cards */
+.research-paper {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.research-paper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.paper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.paper-title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.paper-year.badge {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.paper-details {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paper-category {
+    margin: 0;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.paper-actions .btn {
+    margin-left: 5px;
+}
+
+.paper-actions .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.paper-actions .btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
